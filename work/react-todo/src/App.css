@@ -1,0 +1,197 @@
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+label {
+  
+  font-weight: bold;
+}
+
+.app {
+  background: #FCF1ED;
+  color: #5C6D70;
+  height: 100%;
+  width: 100%;
+  padding: 40px auto;
+  position: absolute;
+}
+
+.login {
+  text-align: center;
+}
+
+.to-login {
+  margin: 10px;
+  height: 35px;
+}
+
+.user-info {
+  height: 30px;
+  width: auto;
+}
+
+.landing {
+  margin: 0 0 20px 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.landing > li {
+  padding: 5px;
+}
+
+
+
+.landing > li.logout {
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.task-filter-label {
+  margin: auto 10px;
+}
+
+.task-sort-label {
+  margin: auto 10px;
+}
+
+.sort-alphabetically {
+  margin: auto 10px;
+}
+
+.sort-by-status {
+  margin: auto 10px;
+}
+
+.sort-by-status {
+  margin: 5px;
+}
+
+.btn-refresh {
+  margin: 20px auto auto auto;
+}
+
+.todo {
+  height: 25px;
+  margin: 2px;
+}
+
+.filter-height {
+  height: 20px;
+}
+
+.todo-checkbox {
+  width: 20px;
+}
+
+.theme {
+  float: right;
+  width: auto;
+  height: 25px;
+  margin: 0 20% 10px 0;
+  font-style: italic;
+}
+
+.app.light {
+  background: #FCF1ED;
+  color: #5C6D70;
+}
+
+.app.dark {
+  background: #5C6D70;
+  color: #FCF1ED;
+}
+
+.app.colorful {
+  background: #EF6F6C;
+  color: #8EDEF6;
+}
+
+.landing-header {
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto 40px;
+}
+
+.header {
+  margin: 0 auto 20px auto;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.second-header {
+  margin: 0 40px 20px 38%;
+  text-align: left;
+
+  font-size: 16px;
+  font-weight: bolder;
+  
+}
+
+.todo-container {
+  text-align: center;
+}
+
+.add-todo-container {
+  margin: 20px;
+  height: 300px;
+  width: auto;
+}
+
+.logout {
+  margin: auto 40px;
+  font-weight: bold;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-input {
+  width: 30%;
+  height: 20px;
+  outline: none;
+}
+
+.btn-todo-add {
+  margin: 10px;
+}
+
+.todo {
+  border: 0;
+}
+
+.error-msg {
+  color: blue;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.filter-todos {
+ 
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 70%;
+  height: 5%;
+}
+
+.task-delete {
+  margin-right: 20px;
+}
+
+.todo-display {
+  width: fit-content;
+  text-align: center;
+  margin-left: 35%;
+  padding: inherit;
+}

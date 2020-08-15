@@ -1,0 +1,72 @@
+body {
+	background-color:#2B2D42;
+}
+
+.display-panel { 
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+h2, h3 { 
+	color: #EDF2F4;
+	font-family: Arial;
+	text-align: center;
+}
+
+.words {
+    text-align: center;
+    font-size: 120%;
+    list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+.scrollable {
+	color: #EDF2F4;
+	height:150px;
+	background-color:black;
+	border: 1px solid black;
+	overflow-y:scroll;
+	align-items: center;
+	padding : 5px;
+}
+
+ul{
+	margin-right: 4%;
+}
+
+
+.invalid-guess-page{ 
+	align-items: center;
+}
+
+
+.winning-page{
+	border: 1px;
+	align-items: center;
+	}
+	
+.send-button {
+  font-size: small;
+  font-weight: bold;
+  background-color: #8D99AE;
+  border: 1px solid black;
+  align-items: center;
+  
+}
+
+.text-fields {
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.list {
+	align-items: center;
+	padding: 5px;	
+}
+
+.form-data {
+	align-items: center;
+	padding: 5px;
+}

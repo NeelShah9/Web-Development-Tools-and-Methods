@@ -1,0 +1,100 @@
+body {
+	  background-color: #92A742;
+  color: #4B1307;
+}
+
+a{
+	color: #4B1307;
+}
+
+h1{
+  background-color: #92A742;
+  text-align: center;
+  color: #133840;
+ 
+}
+.back-to-home{
+	margin-top: 50px;
+	margin-left: 1120px;
+	
+}
+
+.add-a-recipe{
+	margin-left:550;
+	text-align:center;
+}
+
+textarea{
+	background-color: #FEF49D;
+	width:400px;
+	height:50px;
+	margin-left:100px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+input{
+	background-color: #FEF49D;
+	width:150px;
+	height:30px;
+}
+
+.add-recipe-button{
+	text-align:center;
+	
+	height: 40px;
+    width: 70px;
+	background-color: #2B4B40;
+ color: white;
+	
+}
+
+.login-button{
+	text-align:center;
+	margin-left:1100px;
+	height: 40px;
+    width: 70px;
+	background-color: #2B4B40;
+ color: white;
+	
+}
+
+.logout-button {
+	margin-left: 1150px;
+	height: 40px;
+    width: 70px;
+	background-color: #2B4B40;
+ color: white;
+}
+
+.recipe-submit-button{
+	height: 40px;
+    width: 120px;
+	background-color: #2B4B40;
+	margin-left:1100px;
+	margin-top: 50px;
+ color: white;
+}
+
+.submit-button{
+	height: 30px;
+    width: 70px;
+	background-color: #2B4B40;
+ color: white;
+}
+
+.status{
+	text-align:center;
+	font-size: large;
+	color: red;
+}
+
+.recipe-title
+{
+	margin-left: 20px;
+}
+
+.login-page{
+	margin-left:510px;
+	margin-top: 50px;
+}

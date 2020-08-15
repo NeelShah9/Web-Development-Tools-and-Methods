@@ -1,0 +1,138 @@
+html, body{
+	color:white;
+	background-color:black;
+}
+
+h1 {
+  margin: 0;
+  color:#B20611;
+}
+.error {
+  color: #F7F6F9;
+  background-color: #b20611;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-btn {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #83040C;
+  text-align: center;
+  transition: all 0.15s;
+}
+.header-btn:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+.header-btn:active {
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}
+h2 {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.search-panel {
+  border: solid, 2px, #B20611;
+}
+
+.top-rated-tvs {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  
+}
+.title {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: #F7F6F9;
+  
+}
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.recommendation {
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline-start: 0px;
+  border: solid 2px #B20611;
+  justify-content: space-around;
+}
+.recommendation li {
+  list-style-type: none;
+}
+
+.highlight-title {
+  font-style: italic;
+  font-weight: lighter;
+}
+.top-tv {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.container {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.flex-box {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: space-around;
+}
+.flex-box .title {
+  width: 90%;
+  padding: 10px;
+  background: #B20611;
+}
+
+.overview {
+  width: 90%;
+  padding: 10px;
+  background: #B20611;
+  color:#F7F6F9;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  font-style: normal;
+}
+button {
+  font-style: italic;
+  margin: 10px;
+  background-color:808080;
+}
+button:hover {
+  cursor: pointer;
+  font-style: normal;
+}
+.time {
+  font-size: 0.8rem;
+  margin: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.rating {
+  margin: 5px;
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

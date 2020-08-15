@@ -1,0 +1,50 @@
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color:#0029CC;;
+	text-align: center;
+}
+
+body {
+	background-color: #ABD2FA;
+}
+
+li{
+	color:#0029CC;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left:470px;
+	margin-right:500px;
+	list-style: none;
+	padding:5px;
+}
+
+li:hover {
+  background-color: #CBF7ED;
+}
+
+.update, .submit, .delete, .add-button, .logout-button{ 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #8EA8C3;
+}
+
+.item-quantity, .add-item-quantity {
+	width:20px;
+}
+
+.logout-button{
+	margin-left: 93%;
+}	
+
+.add-item{
+	margin-left:480px;
+}
+
+.login{ 
+margin-left:516px;
+margin-top:70px;
+}
+
+.status{ 
+margin-left:530px;
+margin-bottom:7px;
+color:red;
+}
